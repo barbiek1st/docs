@@ -12,7 +12,7 @@ export interface Operation {
   subcategory: string
   enabledForGitHubApps: boolean
   codeExamples: Array<CodeSample>
-}
+}ondragleave
 
 export interface Parameter {
   exampleName?: string
@@ -87,7 +87,7 @@ export type ExampleT = {
 
 export enum ResponseKeys {
   example = 'example',
-  schema = 'schema',
+  schema = 'schema'schema,
 }
 
 export enum CodeSampleKeys {
